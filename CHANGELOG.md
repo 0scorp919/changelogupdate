@@ -4,6 +4,16 @@
 
 ---
 
+## [2.3.66] — 2026-02-27
+
+### Added
+- capsule-core — новий private GitHub репозиторій:
+  - URL: https://github.com/oleksii-rovnianskyi/capsule-core
+  - Призначення: зберігання 6 конфігураційних файлів капсули
+  - Файли: README.md, CHANGELOG.md, Active_Tasks.md, Main_System.code-workspace, .editorconfig, .clinerules
+  - .gitignore: інвертована логіка (ігнорує все, крім 6 файлів)
+  - Git ініціалізований у корені капсули
+
 ## [2.3.65] — 2026-02-26
 
 ### Changed

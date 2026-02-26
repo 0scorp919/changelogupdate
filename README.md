@@ -7,7 +7,7 @@
 Автор: Oleksii Rovnianskyi
 Email:  oleksii.rovnianskyi@gmail.com
 GitHub: oleksii-rovnianskyi (main) | 0scorp919 (devops / personal)
-Версія: 2.3.65
+Версія: 2.3.66
 ```
 
 ---
@@ -130,6 +130,7 @@ git config --local user.email "0scorp919@gmail.com"
 ### Репозиторії
 
 **`oleksii-rovnianskyi`:**
+- `capsule-core` **private** · `git@github.com:oleksii-rovnianskyi/capsule-core.git` → конфігураційні файли капсули
 - `second-brain`  **private** — Obsidian vault + AI-правила · `git@github.com:oleksii-rovnianskyi/second-brain.git` → `second-brain/`
 - `oleksii-rovnianskyi` 🌐 **public** — GitHub Profile README
 - `proton-pass-windows-portable` 🌐 **public** — Офлайн-розшифрування Proton Pass (PGP) на Windows
