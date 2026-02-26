@@ -1,0 +1,16 @@
+# Autonomous Capsule Core — .gitignore
+
+# ІГНОРУВАТИ ВСЕ
+*
+
+# КРІМ 6 КУРАЦІОНФІГЙНИХ ФАЙЛІВ КАПСУЛИ
+# ============================================================
+!README.md
+!CHANGELOG.md
+!Active_Tasks.md
+!Main_System.code-workspace
+!.editorconfig
+!.clinerules
+
+# Також включити цей .gitignore
+!.gitignore

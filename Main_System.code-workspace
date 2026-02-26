@@ -1,0 +1,54 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "🏠 System Root"
+        },
+        {
+            "path": "second-brain",
+            "name": "🧠 Second Brain"
+        },
+        {
+            "path": "devops",
+            "name": "⚙️ DevOps"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/__pycache__": true,
+            "**/*.pyc": true,
+            "apps": true,
+            "backups": true,
+            "downloads": true,
+            "logs": true,
+            "tags": true,
+            "second-brain": true,
+            "devops": true
+        },
+        "files.encoding": "utf8",
+        "files.eol": "\n",
+        "[bat]": {
+            "files.encoding": "utf8bom",
+            "files.eol": "\r\n"
+        },
+        "[powershell]": {
+            "files.eol": "\r\n"
+        },
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "terminal.integrated.profiles.windows": {
+            "Git Bash": {
+                "path": "C:\\!Oleksii_Rovnianskyi\\apps\\git\\bin\\bash.exe",
+                "icon": "terminal-bash"
+            },
+            "PowerShell Portable": {
+                "path": "C:\\!Oleksii_Rovnianskyi\\apps\\pwsh\\pwsh.exe",
+                "icon": "terminal-powershell"
+            }
+        },
+        "python.defaultInterpreterPath": "C:\\!Oleksii_Rovnianskyi\\apps\\python\\current\\python\\python.exe",
+        "git.path": "C:\\!Oleksii_Rovnianskyi\\apps\\git\\bin\\git.exe",
+        "git.terminalAuthentication": false,
+		"terminal.integrated.cwd": "C:\\!Oleksii_Rovnianskyi"
+    }
+}

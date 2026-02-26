@@ -1,0 +1,33 @@
+# EditorConfig — Oleksii Rovnianskyi System
+# UA: Єдині правила форматування для всіх файлів
+root = true
+
+# UA: Правило за замовчуванням — всі файли
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# UA: Markdown — зберігаємо пробіли в кінці рядка (вони означають перенос рядка)
+[*.md]
+trim_trailing_whitespace = false
+
+# UA: Windows Batch — потребує BOM і CRLF
+[*.{bat,cmd}]
+charset = utf-8-bom
+end_of_line = crlf
+
+# UA: PowerShell — CRLF без BOM
+[*.{ps1,psm1,psd1}]
+end_of_line = crlf
+
+# UA: YAML/JSON — 2 пробіли для відступу (стандарт)
+[*.{yml,yaml,json}]
+indent_size = 2
+
+# UA: Makefile — потребує TAB
+[Makefile]
+indent_style = tab
